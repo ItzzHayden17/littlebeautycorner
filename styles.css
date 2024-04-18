@@ -11,6 +11,7 @@ p{
 
 a{
     text-decoration:none;
+    color:black
 }
 h2{
     font-family: "Saira Extra Condensed", sans-serif;
@@ -69,7 +70,7 @@ h2{
 .first-section{
     display: flex;
     flex-direction: column;
-    background-image: url("assets/IMG-20240417-WA0015.jpg");
+    background-image: url("assets/bg1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
