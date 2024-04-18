@@ -35,7 +35,37 @@ h2{
     border-radius: 50%;
     margin-right: 10px;
 }
+.popup{
+    background-color:#fcefe9be;
+    opacity:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transition:all 0.3s ease-in-out;
+    z-index:-1;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.popup.open{
+    opacity:1;
+    z-index:999;
+}
+.popup-inner{
+    padding:20px;
+    background-color:#fcefe9be;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center
 
+}
+.popup button{
+    margin-top:20px;
+    width:50%
+}
 .first-section{
     display: flex;
     flex-direction: column;
